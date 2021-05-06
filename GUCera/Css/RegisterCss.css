@@ -1,0 +1,29 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+.container {
+    width: 420px;
+    background-color: lightblue;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    text-align: center;
+}
+.container h1,.container p,.container #firstname,.container #lastname,.container #email,.container #gender,.container #AorS,.container #address,.container #submit{
+    padding: 5px;
+}
+.container #btn-1{
+    padding: 12px 30px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: transparent;
+    background-color: darkgray;
+    height: 50px;
+}
